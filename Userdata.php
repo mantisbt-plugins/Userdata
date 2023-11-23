@@ -4,12 +4,12 @@ class UserdataPlugin extends MantisPlugin {
 	function register() {
 		$this->name			= plugin_lang_get( 'title' );
 		$this->description	= plugin_lang_get( 'description' );
-		$this->version		= '2.05';
+		$this->version		= '2.06';
 		$this->requires		= array( 'MantisCore'       => '2.0.0 ', );
 		$this->author		= 'Cas Nuy';
 		$this->contact		= 'Cas-at-nuy.info';
-		$this->url		= 'https://github.com/mantisbt-plugins/Userdata';
-		$this->page		= 'config';
+		$this->url			= 'http://www.nuy.info';
+		$this->page			= 'config';
 	}
 
 
