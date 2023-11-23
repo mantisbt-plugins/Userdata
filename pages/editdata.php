@@ -2,10 +2,9 @@
 echo '<tr class="spacer"><td colspan="8"></td></tr>';
 echo '<tr class="hidden"></tr>';
 ?>
-<div class="col-md-12 col-xs-12">
+<div class="col-md-12 col-xs-12"></div>
 <div class="space-10"></div>
-<div class="form-container" > 
-<div>
+<div class="form-container" > </div>
 <form action="<?php echo plugin_page( 'add_data' ) ?>"  method="post" >
 <input type="hidden" name="user_id" value="<?php echo $t_user_id  ?>">
 <tr><div class="widget-box widget-color-blue2">
@@ -27,7 +26,7 @@ echo '<tr class="hidden"></tr>';
 <td><div><b><?php echo plugin_lang_get( 'fieldname' ); ?></b></div></td>
 <td><div><b><?php echo plugin_lang_get( 'value' ); ?></b></div</td>
 </tr>
-
+</div>
 <?PHP
 # Pull all definition entries 
 $query = "SELECT * FROM {plugin_Userdata_fields} ORDER BY userdata_seq";
@@ -66,4 +65,3 @@ while ($row = db_fetch_array($result)) {
 </div>
 </div>
 </form>
-</div>
