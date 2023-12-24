@@ -4,6 +4,7 @@ access_ensure_global_level( config_get( 'manage_plugin_threshold' ) );
 layout_page_header( lang_get( 'plugin_format_title' ) );
 layout_page_begin( );
 print_manage_menu();
+$link=plugin_page('config');
 $reqVar = '_' . $_SERVER['REQUEST_METHOD'];
 $form_vars = $$reqVar;
 $edit_id = $form_vars['edit_id'] ;
@@ -69,9 +70,9 @@ while ($row = db_fetch_array($result)) {
 </div></td>
 
 
-<td class="center" width="40%"><div>
+<td ><div>
 <label><input type="checkbox" name='public'  value="<?php echo $public ?>" />
-<?php if ($public == 1) { echo "checked='checked'"; } ?>>
+<?php if ($public == 1) { echo "checked='checked'"; } ?>
 <div></td>
 
 <td><input name="Submit" type="submit" value="<?php echo lang_get( 'submit' ) ?>">

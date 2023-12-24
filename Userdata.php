@@ -4,7 +4,7 @@ class UserdataPlugin extends MantisPlugin {
 	function register() {
 		$this->name			= plugin_lang_get( 'title' );
 		$this->description	= plugin_lang_get( 'description' );
-		$this->version		= '2.06';
+		$this->version		= '2.10';
 		$this->requires		= array( 'MantisCore'       => '2.0.0 ', );
 		$this->author		= 'Cas Nuy';
 		$this->contact		= 'Cas-at-nuy.info';
@@ -44,7 +44,7 @@ class UserdataPlugin extends MantisPlugin {
 			$result = db_query($query);
 			$row = db_fetch_array($result);
 			$t_user_id = $row['reporter_id'];
-		include 'plugins/Userdata/pages/showdata.php';
+			include 'plugins/Userdata/pages/showdata.php';
 		}
 	}
 	
