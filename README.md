@@ -1,7 +1,7 @@
 ########################################################
 # 	Mantis Bugtracker Add-On
-# 	Userdata Version 2.06
-#	2022 plugin by Cas Nuy www.NUY.info
+# 	Userdata Version 2.10
+#	  2023 plugin by Cas Nuy www.NUY.info
 #	For Mantis 2.x only
 ########################################################
 
