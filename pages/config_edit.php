@@ -16,4 +16,4 @@ plugin_config_set( 'userdata_self_maintain',$f_userdata_self_maintain );
 plugin_config_set( 'userdata_show_account',$f_userdata_show_account );
 plugin_config_set( 'userdata_show_user',$f_userdata_show_user );
 // redirect
-print_successful_redirect( plugin_page( 'config',TRUE ) );
+print_header_redirect( plugin_page( 'config',TRUE ) );
