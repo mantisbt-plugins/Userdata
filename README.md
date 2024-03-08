@@ -1,9 +1,9 @@
 # Userdata plugin for MantisBT
 
-Version 2.20
-Copyright 2024 Cas Nuy
+- Version 2.20
+- Copyright 2024 Cas Nuy
 
-Released under the [GPL v3 license](http://opensource.org/licenses/GPL-3.0).
+- Released under the [GPL v3 license](http://opensource.org/licenses/GPL-3.0).
 
 
 ## Description
