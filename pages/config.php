@@ -4,7 +4,8 @@ access_ensure_global_level( config_get( 'manage_plugin_threshold' ) );
 layout_page_header( plugin_lang_get( 'userdata'  ) );
 layout_page_begin( 'config_page.php' );
 print_manage_menu();
-$link=plugin_page('userdata_definition');
+$link1=plugin_page('userdata_definition');
+$link=plugin_page('userdata_adding');
 $link2 =plugin_page('userdata_cleaning');
 ?>
 <div class="col-md-12 col-xs-12">
@@ -25,9 +26,13 @@ $link2 =plugin_page('userdata_cleaning');
 <table class="table table-bordered table-condensed table-striped"> 
 <tr>
 <td class="form-title" >
-<a href="<?php echo $link ?>"><?php echo plugin_lang_get( 'definition' ) ?></a>
+<?php
+print_link_button( $link, plugin_lang_get( 'definition' ) );
+print_link_button( $link1, plugin_lang_get( 'definition2' ) );
+?>
 </td><td align="right">
-<a href="<?php echo $link2 ?>"><?php echo plugin_lang_get( 'cleaning' ) ?></a>
+<?php
+print_link_button( $link2, plugin_lang_get( 'cleaning' ) );?>
 </td>
 </tr>
 
