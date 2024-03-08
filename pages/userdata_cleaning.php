@@ -7,7 +7,7 @@ $query = " select  distinct user_id from {plugin_Userdata_data} " ;
 $result = db_query( $query );
 while ( $row = db_fetch_array( $result ) ) {
 	$user	= $row['user_id'];
-	// check is user still exists
+	// check if user still exists
 	$query2		= " select  * from {user} where id=$user " ;
 	$result2	= db_query($query2);
 	if ( db_num_rows( $result2 ) <1 ){
@@ -17,4 +17,4 @@ while ( $row = db_fetch_array( $result ) ) {
 	}
 }
 // redirect
-print_successful_redirect( plugin_page( 'config',TRUE ) );
+print_header_redirect( plugin_page( 'config',TRUE ) );
