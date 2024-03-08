@@ -16,10 +16,8 @@ Maintenance is done via the user administration.
 Upon deleting a user, all corresponding data is deleted also.
 
 In case you want to show the data within the view_user_page ,
-please add the following lines to view_user_page.php just before "layout_page_end();
-// Userdata-plugin
-event_signal( 'EVENT_USER_PAGE',  $f_user_id ); 
-// Userdata-plugin
+please add the following lines to view_user_page.php just before "layout_page_end();"
+- event_signal( 'EVENT_USER_PAGE',  $f_user_id ); 
 
 ## Requirements
 
