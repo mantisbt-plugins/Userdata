@@ -9,7 +9,8 @@
 	$s_change_configuration				= "Update Config";
 	$s_plugin_Userdata_enabled			= "Yes";
 	$s_plugin_Userdata_disabled			= "No";
-	$s_plugin_Userdata_definition		= "Define data elements";
+	$s_plugin_Userdata_definition		= "Add data elements";
+	$s_plugin_Userdata_definition2		= "Maintain data elements";
 	$s_plugin_Userdata_show_empty		= "Show data fields without content";
 	$s_plugin_Userdata_show_inline		= "Show data fields within the bug_view page";
 	$s_plugin_Userdata_show_account		= "Show data fields within the My Account page";
