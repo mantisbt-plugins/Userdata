@@ -37,11 +37,11 @@ After copying to your webserver :
 
 ## Configuration
 
-userdata_show_inline	=	ON	// Should we show userdata inline when viewing an issue or not
-userdata_show_account	=	ON 	// Should we show userdata on the My Account page or not
-userdata_show_user	=	ON	// Should we show userdata on the View_user page or not
-userdata_show_empty	=	OFF	// Should we show userdata without content or not
-userdata_self_maintain	=	OFF 	// Should we allow users to maintain their data or not
+- userdata_show_inline	=	ON	// Should we show userdata inline when viewing an issue or not
+- userdata_show_account	=	ON 	// Should we show userdata on the My Account page or not
+- userdata_show_user	=	ON	// Should we show userdata on the View_user page or not
+- userdata_show_empty	=	OFF	// Should we show userdata without content or not
+- userdata_self_maintain	=	OFF 	// Should we allow users to maintain their data or not
 	 
 ## Support
 
