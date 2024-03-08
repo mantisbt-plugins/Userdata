@@ -45,3 +45,7 @@ After copying to your webserver :
 
 File bug reports and submit questions on the
 [GitHub issues tracker](http://github.com/mantisbt-plugins/Userdata/issues).
+
+## Credits
+
+Thanks to Damian Regad for reviewing and pointing out the areas for improvement in order to adhere fully to MantisBT standards.
