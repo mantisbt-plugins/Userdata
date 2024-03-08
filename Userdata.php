@@ -4,7 +4,7 @@ class UserdataPlugin extends MantisPlugin {
 	function register() {
 		$this->name			= plugin_lang_get( 'title' );
 		$this->description	= plugin_lang_get( 'description' );
-		$this->version		= '2.11';
+		$this->version		= '2.20';
 		$this->requires		= array( 'MantisCore'       => '2.0.0 ', );
 		$this->author		= 'Cas Nuy';
 		$this->contact		= 'Cas-at-nuy.info';
@@ -12,11 +12,7 @@ class UserdataPlugin extends MantisPlugin {
 		$this->page			= 'config';
 	}
 
-
  	function init() {
-		// Delete data when user is deleted, so we need to add event to the system
-		// See the install.txt for instructions which files(2) to adjust
-		event_declare('EVENT_ACCOUNT_DELETED');
 		// view data for user_page
 		// See the install.txt for instructions which file to adjust
 		event_declare('EVENT_USER_PAGE');
@@ -25,7 +21,7 @@ class UserdataPlugin extends MantisPlugin {
 		plugin_event_hook( 'EVENT_USER_PAGE', 'show_data2' );
 	 	plugin_event_hook( 'EVENT_VIEW_BUG_EXTRA', 'show_data' );
 		plugin_event_hook( 'EVENT_MANAGE_USER_PAGE', 'edit_data' );
-		plugin_event_hook( 'EVENT_ACCOUNT_DELETED', 'remove_data' );
+		plugin_event_hook( 'EVENT_MANAGE_USER_DELETE', 'remove_data' );
 	}
 
 	function config() {
@@ -37,6 +33,7 @@ class UserdataPlugin extends MantisPlugin {
 			return array( '<a href="' . plugin_page( 'editdata2' ) . '">' . plugin_lang_get( 'custom' ) .  '</a>', );	
 		}
 	}
+	
  	function show_data($p_event,$t_issue ) {
 		if( ON == plugin_config_get( 'userdata_show_inline' ) ) {
 			//get value for the reporter
