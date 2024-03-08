@@ -75,7 +75,7 @@ while ($row = db_fetch_array($result)) {
 <?php if ($public == 1) { echo "checked='checked'"; } ?>
 <div></td>
 
-<td><input name="Submit" type="submit" value="<?php echo lang_get( 'submit' ) ?>">
+<td><input name="Submit" type="submit" class="btn btn-primary btn-white btn-round" value="<?php echo lang_get( 'submit' ) ?>">
 </td>
 
 </tr>

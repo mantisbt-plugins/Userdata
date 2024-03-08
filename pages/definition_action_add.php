@@ -1,8 +1,10 @@
 <?PHP
-$seq	= $_REQUEST['sequence'];
+$seq	= $_REQUEST['sequence'] ;
+if ( !is_int( intval( $seq ) ) ) {
+	$seq = 999;
+}
 $name	= htmlentities($_REQUEST['name'],ENT_COMPAT,'UTF-8');
-$pub	= $_REQUEST['public'];
-if ($pub == 1) {
+if( $pub = @$_REQUEST['public'] ){ 
 	$pub = 1;
 } else {
 	$pub = 0;
