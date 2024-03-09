@@ -30,7 +30,7 @@ After copying to your webserver :
 - Start Mantis as administrator
 - Select manage
 - Select manage Plugins
-- Select Install behind Userdata 2.05
+- Select Install behind Userdata 2.20
 - Once installed, click on the plugin-name for further configuration.
 
 ## Configuration
