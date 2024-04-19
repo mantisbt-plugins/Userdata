@@ -57,4 +57,5 @@ while ($row = db_fetch_array($result)) {
 </div>
 </div>
 </div>
+</div>
 </form>
