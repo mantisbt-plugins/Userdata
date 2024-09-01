@@ -1,0 +1,23 @@
+<?PHP
+	$s_plugin_Userdata_title			= "Gebruikersgegevens";
+	$s_plugin_Userdata_description		= "Gebruik specifieke velden";
+	$s_plugin_Userdata_userdata			= "Gebruik specifieke velden";
+	$s_plugin_Userdata_sequence			= "Veldvolgorde";
+	$s_plugin_Userdata_fieldname		= "Veldnaam";
+	$s_plugin_Userdata_public			= "Schrijfbaar";
+	$s_plugin_userdata_config			= "Configuratie";
+	$s_change_configuration				= "Configuratie bijwerken";
+	$s_plugin_Userdata_enabled			= "Ja";
+	$s_plugin_Userdata_disabled			= "Nee";
+	$s_plugin_Userdata_definition		= "Velden toevoegen";
+	$s_plugin_Userdata_definition2		= "Velden bijwerken";
+	$s_plugin_Userdata_show_empty		= "Toon velden zonder inhoud";
+	$s_plugin_Userdata_show_inline		= "Toon velden in de bugspagina";
+	$s_plugin_Userdata_show_account		= "Toon velden in de mijn accountpagina";
+	$s_plugin_Userdata_show_user		= "Toon velden in de Gebruikersgegevens pagina";
+	$s_plugin_Userdata_self_maintain	= "Gebruiker toestaan de velden bij te werken";
+	$s_plugin_Userdata_configuration	= "Configuratie";
+	$s_plugin_Userdata_action			= "Actie";
+	$s_plugin_Userdata_value			= "Inhoud";
+	$s_plugin_Userdata_cleaning			= "Verwijder wezen";
+	$s_plugin_Userdata_custom			= "Gebruikersgedefinieerd";
