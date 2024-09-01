@@ -1,6 +1,6 @@
 # Userdata plugin for MantisBT
 
-- Version 2.20
+- Version 2.21
 - Copyright 2024 Cas Nuy
 
 - Released under the [GPL v3 license](http://opensource.org/licenses/GPL-3.0).
@@ -49,3 +49,4 @@ File bug reports and submit questions on the
 ## Credits
 
 Thanks to Damian Regad for reviewing and pointing out the areas for improvement in order to adhere fully to MantisBT standards.
+Dutch translation, thanks to Hugo Vonk
