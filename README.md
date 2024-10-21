@@ -1,6 +1,6 @@
 # Userdata plugin for MantisBT
 
-- Version 2.21
+- Version 2.30
 - Copyright 2024 Cas Nuy
 
 - Released under the [GPL v3 license](http://opensource.org/licenses/GPL-3.0).
@@ -30,17 +30,27 @@ After copying to your webserver :
 - Start Mantis as administrator
 - Select manage
 - Select manage Plugins
-- Select Install behind Userdata 2.20
+- Select Install behind Userdata 2.30
 - Once installed, click on the plugin-name for further configuration.
 
 ## Configuration
 
-- userdata_show_inline	=	ON	// Should we show userdata inline when viewing an issue or not
-- userdata_show_account	=	ON 	// Should we show userdata on the My Account page or not
-- userdata_show_user	=	ON	// Should we show userdata on the View_user page or not
-- userdata_show_empty	=	OFF	// Should we show userdata without content or not
+- userdata_show_inline		=	ON	// Should we show userdata inline when viewing an issue or not
+- userdata_show_account		=	ON 	// Should we show userdata on the My Account page or not
+- userdata_show_user		=	ON	// Should we show userdata on the View_user page or not
+- userdata_show_empty		=	OFF	// Should we show userdata without content or not
 - userdata_self_maintain	=	OFF 	// Should we allow users to maintain their data or not
-	 
+
+## Import data option
+
+You can import data for users from the config page.
+Please the provided csv file in the docs directory.
+Mke sure that the topline contains a general fieldname.
+In case you defined 9 fields, topline consists of 10 columns with a title (order the values by the sequence provided in the config).
+First column must contain the username.
+Please set the correct column separator	, select your file and click on "import".
+That is all.
+
 ## Support
 
 File bug reports and submit questions on the

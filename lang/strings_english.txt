@@ -21,3 +21,9 @@
 	$s_plugin_Userdata_value			= "Content";
 	$s_plugin_Userdata_cleaning			= "Remove Orphan Entries";
 	$s_plugin_Userdata_custom			= "Custom Fields";
+	$s_plugin_Userdata_importcsv		= "Import from CSV";
+	$s_plugin_Userdata_col_sep  		= "Column seperator";
+	$s_plugin_Userdata_col_sep2  		= "Make sure this matches with the content of your CSV file";
+	$s_plugin_Userdata_importfile		= "Import-file";
+	
+	$MANTIS_ERROR['ERROR_FIELD_MISMATCH']	= 'Not enough or too may fields in import file.'; 

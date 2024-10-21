@@ -7,6 +7,7 @@ print_manage_menu();
 $link1=plugin_page('userdata_definition');
 $link=plugin_page('userdata_adding');
 $link2 =plugin_page('userdata_cleaning');
+$link3 =plugin_page('userdata_import');
 ?>
 <div class="col-md-12 col-xs-12">
 <div class="space-10"></div>
@@ -29,9 +30,11 @@ $link2 =plugin_page('userdata_cleaning');
 <?php
 print_link_button( $link, plugin_lang_get( 'definition' ) );
 print_link_button( $link1, plugin_lang_get( 'definition2' ) );
+
 ?>
 </td><td align="right">
 <?php
+print_link_button( $link3, plugin_lang_get( 'importcsv' ) );
 print_link_button( $link2, plugin_lang_get( 'cleaning' ) );?>
 </td>
 </tr>

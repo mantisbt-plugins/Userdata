@@ -21,3 +21,9 @@
 	$s_plugin_Userdata_value			= "Inhoud";
 	$s_plugin_Userdata_cleaning			= "Verwijder wezen";
 	$s_plugin_Userdata_custom			= "Gebruikersgedefinieerd";
+	$s_plugin_Userdata_importcsv			= "Importeer vanuit CSV";
+	$s_plugin_Userdata_col_sep  		= "Kolom seperator";
+	$s_plugin_Userdata_col_sep2  		= "Zorg ervoor dat dit overeenkomt met het CSV bestand";
+	$s_plugin_Userdata_importfile		= "Import-bestand";
+	
+	$MANTIS_ERROR['ERROR_FIELD_MISMATCH']	= 'Niet genoeg of teveel velden in import bestand.'; 
