@@ -5,7 +5,7 @@
 	$s_plugin_Userdata_sequence			= "Veldvolgorde";
 	$s_plugin_Userdata_fieldname		= "Veldnaam";
 	$s_plugin_Userdata_public			= "Schrijfbaar";
-	$s_plugin_userdata_config			= "Configuratie";
+	$s_plugin_Userdata_config			= "Configuratie";
 	$s_change_configuration				= "Configuratie bijwerken";
 	$s_plugin_Userdata_enabled			= "Ja";
 	$s_plugin_Userdata_disabled			= "Nee";
